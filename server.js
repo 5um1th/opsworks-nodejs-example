@@ -7,5 +7,5 @@ app.get('/', function(req, res){
   res.send('This is my node.js/express.js app running on host: ' + os.hostname());
 });
 
-var port = process.env.NODE_ENV == 'development' ? 3000 : 80;
+var port = 80;
 app.listen(port);
